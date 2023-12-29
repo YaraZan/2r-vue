@@ -3,7 +3,8 @@
       :type="props.type" 
       :class="setSizeStyles(props.size)"
       :placeholder="props.placeholder ? props.placeholder : ''"
-      class="bg-white border border-gray-5 placeholder:text-gray-4 rounded-[10px] px-[18px] py-[12px]"
+      class="bg-white border border-gray-5 placeholder:text-gray-4
+      hover:bg-gray-2 rounded-[10px] px-[18px] py-[12px]"
        />
     <label v-if="props.label">{{ props.label }}</label>
 </template>
