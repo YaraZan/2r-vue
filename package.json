@@ -1,0 +1,41 @@
+{
+  "name": "2r-vue",
+  "version": "0.0.2",
+  "description": "A Vue3 component library",
+  "main": "./dist/2r-vue.umd.js",
+  "module": "./dist/2r-vue.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/2r-vue.es.js",
+      "require": "./dist/2r-vue.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "component",
+    "library"
+  ],
+  "author": "YaraZan",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.4",
+    "prettier": "^3.1.1",
+    "typescript": "^4.3.5",
+    "vite": "^2.3.7",
+    "vite-plugin-dts": "^3.7.0",
+    "vue": "^3.0.0"
+  }
+}
